@@ -7,10 +7,13 @@
 
 #app div {
     border-radius: 50%;
-    background-color: #bada55;
+    background: #bada55;
     width: 100px;
     height: 100px;
     position: absolute;
     top: 0;
     left: 0;
+    transition: all 2s;
+    translate: (0,0);
 }
+
